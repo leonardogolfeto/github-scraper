@@ -1,0 +1,7 @@
+quarkus:
+  smallrye-openapi:
+    path: /swagger
+  cache:
+    caffeine:
+      scrape-cache:
+        expire-after-write: ${CACHE_EXPIRATION_TIME:360S}
