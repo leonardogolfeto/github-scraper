@@ -5,6 +5,7 @@ This project aims to enumerate and return information on public projects on gith
 ### Stack
 
 Java 11
+
 Quarkus
 
 ### Postman Collection
