@@ -45,7 +45,8 @@ public class FileEnumeratorServiceImpl implements FileEnumeratorService {
     private String findExtension(String path) {
 
         if (path.contains(".")) {
-            return regexFacade.findTextBetween(path, ">", "<").split("\\.")[1];
+            String[] stringArray = regexFacade.findTextBetween(path, ">", "<").split("\\.");
+            return stringArray[stringArray.length -1];
         }
         return OTHERS;
 
