@@ -2,12 +2,16 @@
 
 This project aims to enumerate and return information on public projects on github
 
+[![Java CI with Maven](https://github.com/leonardogolfeto/github-scraper/actions/workflows/maven.yml/badge.svg)](https://github.com/leonardogolfeto/github-scraper/actions/workflows/maven.yml)
+
+### Stack
+
+Java 11 with Quarkus
+
 ### Postman Collection
 
 To understand the api's signature, import the postman collection found at
 https://www.getpostman.com/collections/05b054f79e08ea2176ed
-
-
 
 ## Running the application in dev mode
 
