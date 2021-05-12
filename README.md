@@ -2,12 +2,15 @@
 
 This project aims to enumerate and return information on public projects on github
 
+### Stack
+
+Java 11
+Quarkus
+
 ### Postman Collection
 
 To understand the api's signature, import the postman collection found at
 https://www.getpostman.com/collections/05b054f79e08ea2176ed
-
-
 
 ## Running the application in dev mode
 
